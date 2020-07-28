@@ -23,9 +23,11 @@ def plot_prices(prices):
     plt.savefig('prices.png')
     plt.show
 
-if __name__ == '__main__':
-    # prices = get_prices('YHOO','1992-07-22','2016-07-22') 
-    # prices = get_prices('MSFT',"1992-07-22","2016-07-22")
-     yahoo = Share('MSFT')
+
+yahoo = Share('YHOO')
+# if __name__ == '__main__':
+    # prices = get_prices('MSFT','1992-07-22','2016-07-22') 
+   
+    #  yahoo = Share('MSFT')
 
     # plot_prices(prices)
